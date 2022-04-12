@@ -107,13 +107,17 @@ nav ul li.active {
 
 /* CLI */
 
+.cliBody {
+    height: 86rem;
+}
+
 .cliCard {
     display: flex;
     padding-left: 3rem;
     justify-content: left;
     background-color: #C4C4C4;
     width: 80vw;
-    height: 50rem;
+    height: 80rem;
     font-size: 35px;
     z-index: 2;
     margin: auto;
