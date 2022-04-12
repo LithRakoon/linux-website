@@ -4,16 +4,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OS Website</title>
-    <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+    <link rel="icon" href="./img/icon.svg" type="image/x-icon">
 
     <link rel="stylesheet" href="css/style.css">
 
 </head>
-<body>
+<body class="diffrenceBody">
     <Header>
         <nav>
             <ul class="navbar">
-                    <li class="active">
+                    <li>
                         <a  href="index.html">Home</a>
                     </li>
                     <li>
@@ -22,28 +22,48 @@
                     <li>
                         <a href="cli.html">CLI</a>
                     </li>
-                    <li>
-                        <a>Verschillen in OS</a>
-                    </li>
-                    <li>
-                        <a>Scripts</a>
+                    <li class="active">
+                        <a href="diffrence.html">Verschillen in OS</a>
                     </li>
             </ul>
         </nav>
     </Header>
-    <section class="homeCard">
-        <div >
-            <h1 class="titleHome">Welkom</h1>
-            <p class="home-p">
-                Als je wilt leren over linux, windows en de command line<br>
-                interface ben je op de goede site beland!<br>
+    <section class="diffrenceCard">
+        <div>
+            <h1 class="titleHome">Verschillen in OS</h1>
+            <div  class="default-p">
+                <p>
+                    Hier gaan we leren over de verschillen tussen linux en windows.
+                </p>
                 <br>
-                Je kunt beginnen door naar de volgende pagina te navigern door op de knop op de navigatie bar te klikken.<br>
-                veel plezier met leren.<br>
+                <a class="cliSmall-h">Soorten linux</a><br>
+                <p>Met windows heb je maar 1 soort, de microsoft versies windows 11, 10, 8 en nog veel 
+                    meer zijn allemaal gemaakt door microsoft dit komt om dat windows "closed source" is dit betekend dat de 
+                    code dat windows op maakt niet voor iedereen te zien is, alleen maar microsoft werkers.
+                </p>
+                <p>In linux is dit anders er zijn meerdere soorten "distrobuties" waar je uit kan kiezen
+                    bijvoorbeeld PopOS, Arch linux, Fedora en nog veel meer dit is mogelijk omdat linux "open source" is dit betekent
+                    dat alle code dat linux op maakt publiek is om te zien.
+                </p>
                 <br>
+                <a class="cliSmall-h">mappen structuur</a><br>
+                <p>
+                    windows en linux mappen structuur zijn heel anders van elkaar, je hebt bijvoorbeeld geen C: in linux.
+                    Linux gebruikt voorwaadse slashes <a class="diffrenceSmall-p">"/"</a> en windows gebruikt achterwaardse slashes <a class="diffrenceSmall-p">"\"</a>.<br>
+                    Ik ga laten zien waar de xampp map zit in windows en in linux, <br>
+                    windows: C:\xampp\htdocs
+                    linux: /opt/lampp/htdoc
+                </p>
                 <br>
-                De site is gemaakt en geresearched door gamzee
-            </p>
+                <a class="cliSmall-h">bestands extensies</a><br>
+                in beide windows en linux gebruik je bestands extensies, bestandsextensies zijn de extensies aan het einde van een bestands naam je kan ze zien door dat er een <a class="diffrenceSmall-p">"."</a> 
+                voor staat deze bestands extensies geven aan wat het type bestand is.<br>
+                omdat linux en windows bijde bestands extensies gebruiken is er veel overlap, bijvoorbeeld een foto bestand zou een
+                bestands extensie als <a class="diffrenceSmall-p">".png"</a> of <a class="diffrenceSmall-p">".jpeg"</a> kunnen hebben deze kun je gebruiken in linux en windows
+                zo zijn er nog veel meer die werken op bijde platformen.<br>
+                er zijn ook bestands extensies die niet op elkaars platform werken zoals <a class="diffrenceSmall-p">".dll"</a> dit is een bestands extensie die alleen werkt op windows
+                want deze bestands extensie is bedoeld om windows specifiece code te delen met andere programmas.
+            </div>
         </div>
     </section>
 </body>
