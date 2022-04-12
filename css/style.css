@@ -131,7 +131,7 @@ nav ul li.active {
 /* diffrence */
 
 .diffrenceBody {
-    height: 64rem;
+    height: 69rem;
 }
 
 .diffrenceCard {
@@ -140,7 +140,7 @@ nav ul li.active {
     justify-content: left;
     background-color: #C4C4C4;
     width: 80vw;
-    height: 57rem;
+    height: 63rem;
     font-size: 35px;
     z-index: 2;
     margin: auto;
