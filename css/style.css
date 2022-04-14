@@ -14,6 +14,10 @@ body {
     padding-top: 70px;
 }
 
+ul, ol {
+    list-style-position: inside;
+}
+
 /* NAVBAR */
 
 nav {
@@ -162,4 +166,15 @@ nav ul li.active {
 
 .default-p {
     font-size: 1.5rem;
+}
+
+.os-dingen-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+}
+
+.os-dingen-windows, .os-dingen-macos {
+    min-width: calc(50% - 2rem);
 }
