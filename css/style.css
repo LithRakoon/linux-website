@@ -135,7 +135,7 @@ nav ul li.active {
 /* diffrence */
 
 .diffrenceBody {
-    height: 69rem;
+    height: 83rem;
 }
 
 .diffrenceCard {
@@ -144,7 +144,7 @@ nav ul li.active {
     justify-content: left;
     background-color: #C4C4C4;
     width: 80vw;
-    height: 63rem;
+    height: 77rem;
     font-size: 35px;
     z-index: 2;
     margin: auto;
@@ -154,6 +154,27 @@ nav ul li.active {
 .diffrenceSmall-p {
     font-weight: bold;
 }
+
+/* instruction */
+
+.instructionBody {
+    height: 83rem;
+}
+
+.instructionCard {
+    display: flex;
+    padding-left: 3rem;
+    justify-content: left;
+    background-color: #C4C4C4;
+    width: 80vw;
+    height: 77rem;
+    font-size: 35px;
+    z-index: 2;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
 
 /* shared */
 
